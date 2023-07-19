@@ -3,7 +3,8 @@ import './index.scss'
 import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome,faUser,faGithub } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome,faUser,faL,faG,faY} from '@fortawesome/free-solid-svg-icons'
+
 
 const Sidebar = () => (
   <div className='nav-bar'>
@@ -29,9 +30,25 @@ const Sidebar = () => (
         <a 
           target='_blank' 
           rel='noreferrer' 
-          href='linkedin.com/in/angel-mazulu-b68645265'>
-          <FontAwesomeIcon icon="fa-brands fa-linkedin" size="lg" />
-          {/* <FontAwesomeIcon icon={faGithub} color='#4d4d4e' /> */}
+          href='https://www.linkedin.com/in/angel-mazulu-b68645265/'>
+          <FontAwesomeIcon icon={faL} color="#4d4d4e"/>
+        </a>
+      </li>
+
+      <li>
+        <a 
+          target='_blank' 
+          rel='noreferrer' 
+          href='https://github.com/ThandekaSinqobileAngel?tab=repositories'>
+          <FontAwesomeIcon icon={faG} color="#4d4d4e"/>
+        </a>
+      </li>
+      <li>
+        <a 
+          target='_blank' 
+          rel='noreferrer' 
+          href='https://www.youtube.com/watch?v=bmpI252DmiI&list=PPSV'>
+          <FontAwesomeIcon icon={faY} color="#4d4d4e"/>
         </a>
       </li>
     </ul>
